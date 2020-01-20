@@ -1,3 +1,3 @@
 #! /bin/sh -
 
-docker run -d -p 38081:8081 sonatype/nexus3
+docker run -d -p 38081:8081 --network sonatype sonatype/nexus3
